@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* The page is in sections from top to bottom */
+
+    margin: 0;
+    padding: 0;
+}
+
+/* So I can arrange the header and hero */
+.section-one { 
+    background-color: #1F2037;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Yes, I love flex, used it to arrange all the header elements */
+/* Arranging items, selecting fonts + colors here etc */
+.header {
+    display: flex;
+    justify-content: space-around;
+
+    list-style-type: none;
+    padding: 0;
+    flex: 1 1;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links li {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+/* Hero styling */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    max-width: 1225px;
+    gap: 40px;
+    align-self: center;
+    flex: 1 1 500px;
+
+}
+
+.hero-img {
+    width: 700px;
+    height: 300px;
+
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text > h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.text > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.text > button {
+    background-color: #3882F6;
+    color: white;
+    
+    font-size: 25px;
+    font-weight: bold;
+
+    padding: 10px 35px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
