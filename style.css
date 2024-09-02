@@ -5,6 +5,8 @@ body {
 
     margin: 0;
     padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* So I can arrange the header and hero */
@@ -142,6 +144,8 @@ body {
     justify-content: center;
 }
 
+/* See section one for explanation on why I did this 'bg' thing */
+
 .section-three {
     background-color: #E5E7EB;
     display: flex;
@@ -157,10 +161,59 @@ body {
     color: #1F2037;
 
     max-width: 1100px;
-    margin: 0px;
+    margin: 0px; 
+    /* No margin so I can just use height, and also to pull the author name up a bit */
 }
 
 .author {
     align-self: flex-end;
     font-size: 30px;
 }
+
+/* Section four */
+
+.section-four {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 9px;
+
+    height: 150px;
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    color: white;
+}
+
+.cta-header {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: rgba(0, 0, 0, 0);
+
+    color: white;
+    border: currentColor 2px solid;
+    border-radius: 7px;
+
+    font-size: 23px;
+
+    padding: 5px 32px;
+}
+
+/* Footer */
