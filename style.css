@@ -95,6 +95,13 @@ body {
     border-style: none;
 }
 
+@media (max-width: 1100px) {
+    .section-one {
+        padding: 50px 50px;
+    }
+}
+
+
 /* Section 2 */
 
 .section-two {
@@ -108,7 +115,6 @@ body {
 
     padding: 50px 0px;
 }
-
 
 .section-two > h1 {
     font-weight: 900;
@@ -133,6 +139,13 @@ body {
     max-width: 300px;
     height: 300px;
 }
+
+@media (max-width: 1415px) {
+    .section-two {
+        padding: 50px 50px;
+    }
+}
+
 
 /* Used max-width over width, so items don't have fixed width and can shrink */
 
@@ -168,6 +181,12 @@ body {
 .author {
     align-self: flex-end;
     font-size: 30px;
+}
+
+@media (max-width: 1100px) {
+    .section-three {
+        padding: 50px 50px;
+    }
 }
 
 /* Section four */
@@ -215,6 +234,13 @@ body {
 
     padding: 5px 32px;
 }
+
+@media (max-width: 1190px) {
+    .section-four {
+        padding: 50px 50px;
+    }
+}
+
 
 /* Footer */
 
