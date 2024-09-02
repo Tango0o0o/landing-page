@@ -15,10 +15,13 @@ body {
     background-color: #1F2037;
 }
 
+/* The background is used to fill the white space on either side */
+/* The section-one is used to align the hero + header */
 .section-one { 
     background-color: #1F2037;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
 }
 
 /* Yes, I love flex, used it to arrange all the header elements */
@@ -59,7 +62,7 @@ body {
 }
 
 .hero-img {
-    width: 700px;
+    max-width: 700px;
     height: 300px;
 }
 
@@ -89,6 +92,46 @@ body {
     border-radius: 10px;
     border-style: none;
 }
+
+/* Section 2 */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    padding: 50px 0px;
+}
+
+.section-two > h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2037;
+}
+
+.info-blocks {
+    display: flex;
+    gap: 70px;
+}
+
+.info {
+    max-width: 300px;
+    text-align: center;
+}
+
+.square {
+    border: 5px #3882F6 solid;
+    border-radius: 12px;
+
+    max-width: 300px;
+    height: 300px;
+
+}
+
+
+
+/* Section 3 */
 
 .section-three {
     background-color: #E5E7EB;
