@@ -8,22 +8,27 @@ body {
 }
 
 /* So I can arrange the header and hero */
+
+.section-one-bg {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2037;
+}
+
 .section-one { 
     background-color: #1F2037;
     display: flex;
     flex-direction: column;
-
 }
 
 /* Yes, I love flex, used it to arrange all the header elements */
 /* Arranging items, selecting fonts + colors here etc */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     list-style-type: none;
     padding: 0;
-    flex: 1 1;
 }
 
 .links {
@@ -46,13 +51,9 @@ body {
 
 .hero {
     display: flex;
-    justify-content: center;
     align-items: center;
 
-    height: 500px;
-    max-width: 1225px;
     gap: 40px;
-    align-self: center;
     flex: 1 1 500px;
 
 }
@@ -60,7 +61,6 @@ body {
 .hero-img {
     width: 700px;
     height: 300px;
-
 }
 
 .text {
