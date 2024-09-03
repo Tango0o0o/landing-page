@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #1F2037;
+    
 }
 
 /* The background is used to fill the white space on either side */
@@ -41,9 +42,11 @@ body {
     gap: 25px;
 }
 
-.links li {
-    color: #E5E7EB;
+.links li a {
+
     font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .logo {
