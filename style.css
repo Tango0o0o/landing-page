@@ -128,10 +128,13 @@ body {
     font-weight: 900;
     font-size: 36px;
     color: #1F2037;
+    text-align: center;
 }
 
 .info-blocks {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 100px;
 }
 
